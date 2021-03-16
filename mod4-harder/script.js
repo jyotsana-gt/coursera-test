@@ -57,9 +57,9 @@ for (var i = 0; i < names.length; i++/* fill in parts of the 'for' loop to loop 
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (/* fill in condition here */firstLetter==='j') {
-    byeSpeaker.names;
+    byeSpeaker(names[i]);
   } else {
-     helloSpeaker.names;
+     helloSpeaker(names[i]);
   }
 }
 }) ();
